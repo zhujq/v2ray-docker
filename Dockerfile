@@ -3,7 +3,7 @@ from nginx:latest
 ENV CLIENT_ID "b831381d-6324-4d53-ad4f-8cda48b30811"
 ENV CLIENT_ALTERID 64
 ENV CLIENT_WSPATH "/dw"
-ENV VER=4.19.1
+#ENV VER=4.19.1
 
 ADD conf/nginx.conf /etc/nginx/
 ADD conf/default.conf /etc/nginx/conf.d/
